@@ -1,0 +1,13 @@
+Explanation of Backtracking Approach:
+The is_safe function checks if a queen can be safely placed in a given cell by examining the row, column, and diagonals.
+The backtrack function recursively explores all possible queen placements row by row, and it backtracks if a safe placement is not possible.
+We maintain a solutions list to store all valid solutions.
+
+Time Complexity:
+The time complexity of this algorithm is exponential, O(N!).
+In the worst case, we need to consider all possible permutations of queen placements.
+
+Perfomance for Larger N:
+The algorithm's time complexity grows rapidly with N.
+It is efficient for small to moderate values of N (e.g., N ≤ 12), but it becomes impractical for larger N values.
+For larger N values, more advanced algorithms or heuristics may be needed to find solutions efficiently.
