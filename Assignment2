@@ -1,0 +1,9 @@
+Explanation of Dynamic Programming Approach:
+We use a 2D array dp to store the minimum number of scalar multiplications required to compute the product of matrices from index i to j.
+The outer loop iterates over different chain lengths (from 2 to n), and the inner loops calculate the minimum cost for each chain length.
+The recurrence relation is based on breaking the chain into two sub-chains and finding the cost of multiplying them.
+We reconstruct the optimal parenthesization by tracking the values of k that result in the minimum cost.
+
+Time and Space Complexity:
+Time Complexity: O(n^3), where n is the number of matrices. This is because we have a triple nested loop.
+Space Complexity: O(n^2) for the dp array.
