@@ -1,0 +1,70 @@
+Assignment 1
+You are given an array of integers, and you are required to sort this array using one of the following sorting algorithms: Bubble Sort, Selection Sort, or Insertion Sort. Your task is to implement the chosen sorting algorithm and analyze its time complexity.
+Implement one of the sorting algorithms mentioned above (Bubble Sort, Selection Sort, or Insertion Sort) in Python.
+Apply your sorting algorithm to the given array of integers.
+Provide the sorted array as the output.
+Analyze the time complexity of the sorting algorithm you implemented. Explain whether it is a stable sort and how it performs on different types of input data (e.g., already sorted, reverse sorted, random data).
+Compare the time complexity of your chosen sorting algorithm with at least one other sorting algorithm (e.g., Quick Sort, Merge Sort, or Python's built-in 
+sorted function). Explain the differences and scenarios where one algorithm might be preferred over the other.
+
+Input:
+An unsorted list of integers (e.g., [5, 2, 9, 1, 5, 6]).
+
+Output:
+The sorted list of integers.
+
+Instructions:
+Choose one of the sorting algorithms (Bubble Sort, Selection Sort, or Insertion Sort) and implement it in Python.
+Apply your chosen sorting algorithm to the provided input array.
+Provide the sorted array as the output.
+Analyze the time complexity of the sorting algorithm and discuss its stability and performance on different input data.
+Compare the time complexity of your chosen sorting algorithm with at least one other sorting algorithm, and explain when you would prefer one over the other.
+
+
+
+
+Assignment 2 
+You are given a sequence of matrices with dimensions that are suitable for matrix multiplication. Your task is to find the optimal way to parenthesize the matrices to minimize the total number of scalar multiplications required to compute their product.
+Implement a dynamic programming algorithm in Python to solve the matrix chain multiplication problem.
+Apply your algorithm to the given sequence of matrices and find the optimal parenthesization.
+Calculate and provide the minimum number of scalar multiplications required for the optimal parenthesization.
+Explain the dynamic programming approach you used, including the initialization, recurrence relation, and how you reconstructed the optimal parenthesization.
+Analyze the time and space complexity of your algorithm, and discuss its efficiency in solving large instances of the problem.
+
+Input:
+A list of matrices, each represented by its dimensions. For example, a list of matrices [A, B, C] could be represented as [(2, 3), (3, 4), (4, 2)] where the dimensions of matrix A are 2x3, the dimensions of matrix B are 3x4, and the dimensions of matrix C are 4x2.
+
+Output:
+The optimal parenthesization of matrices as a sequence of matrix multiplications.
+The minimum number of scalar multiplications required for the optimal parenthesization.
+
+Instructions:
+Implement a dynamic programming algorithm to solve the matrix chain multiplication problem in Python.
+Apply your algorithm to the provided list of matrices to find the optimal parenthesization.
+Calculate and provide the minimum number of scalar multiplications required for the optimal parenthesization.
+Explain the dynamic programming approach, including the initialization, recurrence relation, and reconstruction of the optimal parenthesization.
+Analyze the time and space complexity of your algorithm and discuss its efficiency for large instances of the problem.
+
+
+
+Assignment 3
+You are tasked with solving the N-Queens problem using a backtracking algorithm. The N-Queens problem is to place N chess queens on an N×N chessboard so that no two queens threaten each other. Thus, a solution requires that no two queens share the same row, column, or diagonal. Your goal is to implement the algorithm, find all possible solutions for a given N, and analyze its time complexity.
+⦁	Implement a backtracking algorithm in Python to solve the N-Queens problem.
+⦁	Apply your algorithm to find all possible solutions for a given N (e.g., N = 4 or N = 8). Ensure that you generate all unique solutions.
+⦁	Present the solutions as chessboard representations, indicating the placement of queens (e.g., using 'Q' for queens and '.' for empty squares).
+⦁	Explain the backtracking approach, including how you generate and validate solutions and how you handle conflicts between queens.
+⦁	Analyze the time complexity of your algorithm and discuss its efficiency for larger values of N.
+
+Input:
+⦁	An integer N (N ≥ 4) representing the size of the N×N chessboard and the number of queens to place.
+
+Output:
+⦁	All possible solutions to the N-Queens problem for the given N, presented as chessboard representations.
+
+Instructions:
+⦁	Implement a backtracking algorithm to solve the N-Queens problem in Python.
+⦁	Apply your algorithm to find all possible solutions for the provided value of N (e.g., N = 4 or N = 8).
+⦁	Present the solutions as chessboard representations, indicating the placement of queens (e.g., using 'Q' for queens and '.' for empty squares).
+⦁	Explain the backtracking approach, including solution generation, validation, and conflict resolution.
+⦁	Analyze the time complexity of your algorithm and discuss its performance for larger N values.
+
