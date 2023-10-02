@@ -1,0 +1,12 @@
+Time Complexity Analysis:
+Bubble Sort has a worst-case time complexity of O(n^2) where 'n' is the number of elements in the array.
+It has an average-case time complexity of O(n^2).
+Best-case time complexity is O(n) when the array is already sorted (with the optimized flag).
+
+Stability:
+Bubble Sort is stable, which means it maintains the relative order of equal elements in the sorted array.
+
+Comparison with Quick Sort:
+Quick Sort is generally more efficient than Bubble Sort.
+Quick Sort has an average-case time complexity of O(n log n), which is significantly faster than Bubble Sort's average-case O(n^2).
+Quick Sort is a better choice for large datasets and is widely used in practice.
